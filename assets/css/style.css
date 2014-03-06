@@ -1,0 +1,103 @@
+@import url("bootstrap.min.css");
+@import url("fonts.css");
+
+body {
+	padding-top: 15px;
+	background-color: #F8F2EA;
+	color: #fff;
+	font-weight: 400;
+	font-family: "Oxygen", sans-serif; }
+
+.container { max-width: 970px !important; }
+
+hr { border-color: #F3C486; }
+
+::-moz-selection {
+	background: #778da8;
+	color: #fff;
+	text-shadow: none; }
+
+::selection {
+	background: #778da8;
+	color: #fff;
+	text-shadow: none; }
+
+/* Header */
+header { margin-bottom: 30px; }
+
+header .title-box {
+	padding: 12px;
+	background-color: #95B931; }
+
+header .slogan-box {
+	padding: 12px;
+	background-color: #4FB9D9; }
+
+header .title-box > h1, header .slogan-box > h1 {
+	margin: 0;
+	text-align: center;
+	letter-spacing: -1px;
+	font-weight: 400;
+	font-size: 45px;
+	font-family: "Montserrat", sans-serif;
+	line-height: 1; }
+
+header .slogan-box > h1 { color: #fff; }
+
+/* Footer */
+footer {
+	margin: 25px 0;
+	color: rgb(156, 152, 152);
+	font-size: 13px; }
+
+footer p { margin: 0; }
+
+footer a, footer a:hover, footer a:focus { color: rgb(156, 152, 152); }
+
+footer a:hover, footer a:focus { text-decoration: underline; }
+
+.pull-right { text-align: right; }
+
+/* Buttons */
+.btn {
+	border-radius: 0;
+	font-weight: 400;
+	font-size: 40px; }
+
+.btn-appstore, .btn-appstore:hover, .btn-appstore:focus {
+	border: 0;
+	background-color: #539FDC;
+	color: #fff; }
+
+.btn-online, .btn-online:hover, .btn-online:focus {
+	border: 0;
+	background-color: #B3C833;
+	color: #fff; }
+
+.btn-appstore > i, .btn-online > i { margin-right: 5px; }
+
+.space { height: 25px; }
+
+@media (max-width: 767px) {
+	header .slogan-box > h1 { font-size: 28px; }
+}
+
+@media (max-width: 480px) {
+	.btn { font-size: 24px; }
+}
+
+.notavailable {
+	opacity: .5;
+	cursor: default; }
+
+.gabarito p { margin: 0; }
+
+.gabarito {
+	display: block;
+	margin-bottom: 30px;
+	padding: 20px;
+	background-color: #4FB9D9;
+	text-align: center;
+	font-weight: 400;
+	font-size: 25px;
+	font-family: "Oxygen", sans-serif; }
